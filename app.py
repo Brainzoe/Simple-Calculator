@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def calculator():
-    return render_template('calculator.html')
+    return render_template('index.html')
 
 @app.route('/calculate', methods=['POST'])
 def calculate():
